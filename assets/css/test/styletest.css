@@ -1,0 +1,143 @@
+/* -------------------------------- */
+/* REUSABLE COMPONENTS */
+/* -------------------------------- */
+
+
+
+
+.grid {
+    display: grid;
+    grid-template-columns: 150px auto 150px;
+    grid-gap: 1em;
+  }
+  
+
+
+.row {
+    max-width: 960px;
+    margin: 0 auto;
+    
+    
+    
+}
+
+.intro {
+    line-height: 145%;
+    width: 70%;
+    margin: 0px 15px 15px 0px;
+        
+}
+
+
+/* MAIN NAVI */
+
+.main-nav {
+    float: right;
+    list-style: none;
+    margin-top: 55px;
+    padding: 14px 16px;
+    
+    
+}
+
+.main-nav li {
+    display: inline-block;
+    margin-left: 40px;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;   
+    background-color: #fff;
+        
+}
+
+.main-nav li a:link,
+.main-nav li a:visited {
+    padding: 8px 0;
+    color:#777777;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 100%;
+    border-bottom: 2px solid transparent;
+    -webkit-transition: border-bottom .2s;
+    transition: border-bottom .2s;
+    
+    
+}
+
+.main-nav li a:hover,
+.main-nav li a:active {
+    border-bottom: 2px solid #cf6d17;
+   
+ 
+    
+}
+
+/* MAIN NAVI1 Your Name */
+.main-nav1 {
+    float: left;
+    list-style: none;
+    margin-top: 55px;
+    
+}
+
+.main-nav1 li {
+    display: inline-block;
+    margin-left: 40px;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;   
+   
+        
+}
+
+.main-nav1 li a:link,
+.main-nav1 li a:visited {
+    padding: 20px 30px 50px 30px;
+    color:#fff;
+    background-color: #4aaaa5;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 100%;
+    border-bottom: 2px solid transparent;
+    -webkit-transition: border-bottom .2s;
+    transition: border-bottom .2s;
+    
+    
+}
+
+.main-nav1 li a:hover,
+.main-nav1 li a:active {
+    border-bottom: 2px solid #cf6d17;
+   
+ 
+    
+}
+
+/* HEADER PHOTO */
+img {
+ float: left;
+
+     
+       
+}
+
+/* BASIC INFORMATION */
+h1 {
+    
+    font-size: 40px;
+    font-family: 'Georgia', Times, Times New Roman, serif; 
+    margin-bottom: 20px;
+    color: #4aaaa5   
+    
+}
+
+/* ABOUT ME HEADER */
+h1.AboutMe {
+    float: left;
+    list-style: none;
+    color: #4aaaa5;
+    margin: 100px 100px;
+   
+    
+}
+
+/* PARAGRAPH TEXT */
+.intro {
+    display: inline-block;
+}
