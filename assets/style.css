@@ -1,221 +1,163 @@
-
-
 h1, h2, h3, h4, h5{
     color:#4A4E69 !important;
     font-weight: 300;
     font-family: 'Poppins', sans-serif;
     margin: 15px;
 }
-
 p {
     color: #4A4E69;
     font-weight: 300;
     font-family: 'Poppins', sans-serif;
     margin-left: 15px;
 }
-
 .main-wrap {
     padding: 0px;
 }
-
 .profile-pic {
     border: 4px solid #00989A;
     border-radius: 100%;
     box-shadow: 0 0 1px 11px rgba(0, 152, 154, 0.15), 0 0 1px 22px rgba(0, 152, 154, 0.1);
     display: inline-block;
     height: 200px;
-    width: 200px; 
+    width: 200px;
     margin-bottom: 15px;
     opacity: 1.0;
-   
 }
-
 .m-t-1 {
     margin-top:1em;
 }
-
 .p-t-1 {
     padding-top:1em;
 }
-
-
 .about-me {
     margin-top:25px;
 }
-
 .navbar-default {
     background-color: #C9ADA7;
     background: none;
     border: none;
     border-radius:0;
 }
-
 .repo-row {
     padding: 65px 10px;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-       
 }
-
-
-
 .aboutImg {
     padding-top: 25px;
-       
 }
-
-
 .repoAbout {
     padding-top: 25px;
-       
 }
-
 .iconDiv {
     padding-bottom: 5px;
-       
 }
-
-
-
-
-
-
 .repo-row:nth-child(odd) {
-
-  background-color: lightgrey;
-  -webkit-clip-path: polygon(0 0%, 100% 4%, 100% 96%, 0% 100%);
-  clip-path: polygon(0 0%, 100% 4%, 100% 96%, 0% 100%);
+    background-color: lightgrey;
+    -webkit-clip-path: polygon(0 0%, 100% 4%, 100% 96%, 0% 100%);
+    clip-path: polygon(0 0%, 100% 4%, 100% 96%, 0% 100%);
 }
-
 .vertical-align {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
-
 @media (max-width: 991px) {
     .row.vertical-align {
-        display: block; /* Turn off the flexible box layout */
-    }
+        display: block;
+       /* Turn off the flexible box layout */
+   }
 }
-
 .work-item-img {
     max-height: 480px;
     max-width:80%;
 }
-
 .row-footer {
-/*	background-color: lightgrey;
+   /* background-color: lightgrey;
     -webkit-clip-path: polygon(0 0%, 100% 4%, 100% 100%, 0% 100%);
-    clip-path: polygon(0 0%, 100% 4%, 100% 100%, 0% 100%);*/
+    clip-path: polygon(0 0%, 100% 4%, 100% 100%, 0% 100%);
+   */
     padding: 65px 10px;
 }
-
 .linkedin-btn {
     width:140px;
     box-shadow: 0px 2px 5px 1px lightgrey;
     padding: 12px;
     border-radius: 5px;
 }
-
-.btn-launch,
-.btn-launch:focus {
+.btn-launch, .btn-launch:focus {
     width:100%;
     max-width:200px;
     background-color:#450CE8;
     color:white;
     box-shadow: 0px 2px 5px 1px darkgrey;
 }
-
 .btn-launch:hover {
     color: white;
     background: rgb(53, 13, 163);
 }
-
-
-
 .techUsed {
     font-size:54px;
     padding: 10px 0 0;
-    
 }
-
 .buttonWrap .btn {
     margin-top: 5px;
     margin-bottom:5px;
 }
-
 .techUsed i {
     margin: 15px;
 }
-
-
 .toolsUsed {
     font-size: 100px;
-  padding: 40px 0;
+    padding: 40px 0;
 }
-
 .toolsUsed i {
     margin:0 15px;
-    
 }
-
 .about {
     margin-bottom:-5px;
     margin-right:-15px;
-    
 }
-
-
 #aboutMeH3 {
     font-weight: 300;
     line-height: 1.5;
     font-family: 'Poppins', sans-serif;
-    /* margin: 10px; */
+   /* margin: 10px;
+    */
     color: white !important;
 }
-
 #aboutMeH5 {
-    
     font-weight: 300;
     font-size: 16px;
     line-height: 1.5;
     font-family: 'Poppins', sans-serif;
-    /* margin: 10px; */
+   /* margin: 10px;
+    */
     color: white !important;
 }
-
-
-
 /* CUSTOM HOVER */
-
 .wrapIcon {
     padding: 45px 10px;
     text-align: center;
     width: 100%;
     background-color: #00989A;
-   -webkit-clip-path: polygon(0 0%, 100% 0%, 100% 100%, 0% 100%);  
-    clip-path: polygon(0 0%, 100% 4%, 100% 100%, 0% 100%);  
-    
-  }
-
-  .wrapIconAbout {
+    -webkit-clip-path: polygon(0 0%, 100% 0%, 100% 100%, 0% 100%);
+    clip-path: polygon(0 0%, 100% 4%, 100% 100%, 0% 100%);
+}
+.wrapIconAbout {
     padding: 25px 10px 55px 10px;
     text-align: center;
     width: 100%;
     background-color: #E89C0C;
-    -webkit-clip-path: polygon(0 0%, 100% 0%, 100% 96%, 0% 100%);  
-    clip-path: polygon(0% 0%, 100% 0%, 100% 96%, 0% 100%);  
- 
-  }
-  
-  .wrapIcon a {
+    -webkit-clip-path: polygon(0 0%, 100% 0%, 100% 96%, 0% 100%);
+    clip-path: polygon(0% 0%, 100% 0%, 100% 96%, 0% 100%);
+}
+.wrapIcon a {
     color: #00989A;
-  }
-  
-  #test-icon {
+}
+#test-icon {
     font-size: 36px;
     display: inline-block;
     cursor: pointer;
@@ -229,9 +171,8 @@ p {
     color: #fff;
     background-color: rgba(255, 255, 255, 0.1);
     transition: 300ms;
-  }
-  
-  #test-icon:after {
+}
+#test-icon:after {
     pointer-events: none;
     position: absolute;
     width: 100%;
@@ -244,26 +185,20 @@ p {
     left: 0;
     opacity: 0;
     transition: 300ms;
-  }
-  
-  #test-icon:hover {
+}
+#test-icon:hover {
     background-color: #fff;
     color: #00989A;
-  }
-  
-  #test-icon:hover:after {
+}
+#test-icon:hover:after {
     opacity: 1;
     transform: scale(1.15);
-  }
-
-  .fillerDiv {
-      padding-top: 15px;
-  }
-
-
-  /* HERO BG IMAGE */
-
-  .hero-wrap-bg {
+}
+.fillerDiv {
+    padding-top: 15px;
+}
+/* HERO BG IMAGE */
+.hero-wrap-bg {
     -webkit-animation-delay: 0.45s;
     animation-delay: 0.45s;
     -webkit-animation-duration: 0.45s;
@@ -281,9 +216,5 @@ p {
     right: 0;
     top: 0;
     z-index: -1;
- 
-   
-  
- }
+}
 
-    /* PROJECT TITLES */
