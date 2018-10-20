@@ -154,6 +154,16 @@ p {
     -webkit-clip-path: polygon(0 0%, 100% 0%, 100% 96%, 0% 100%);
     clip-path: polygon(0% 0%, 100% 0%, 100% 96%, 0% 100%);
 }
+
+.wrapIconFooter {
+    padding: 45px 10px;
+    text-align: center;
+    width: 100%;
+    background-color: #00989A;
+    -webkit-clip-path: polygon(0 0%, 100% 0%, 100% 100%, 0% 100%);
+    clip-path: polygon(0 0%, 100% 0%, 100% 100%, 0% 100%);
+   
+}
 .wrapIcon a {
     color: #00989A;
 }
